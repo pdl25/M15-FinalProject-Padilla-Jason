@@ -29,6 +29,7 @@ public class AppApplication {
 					System.out.println("Longitude: " + json.coord.lon + " Latitude: " + json.coord.lat);
 					System.out.println();
 				} catch(Exception e) {
+					System.out.println(e);
 					System.out.println("\nInvalid City Please Try Again.");
 					System.out.println();
 				}
